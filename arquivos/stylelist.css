@@ -1,0 +1,68 @@
+body
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: aliceblue;
+justify-content: center;
+padding-top: 50px;    
+}
+
+.container
+{
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px black;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+input 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button
+{
+    width: 100%;
+    background-color: azure;
+    color: aliceblue;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor:pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+button:houver{
+    background-color: aliceblue;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.th, td{
+    border-bottom: 1px solid white;
+    padding: 12px;
+    text-align: left;
+}
+
+th{
+    background-color: white;
+    color: black;
+}
+
+.btn-voltar{
+display: inline-block;
+margin-top: 20px;
+text-decoration: none;
+color:blue;
+font-weight: bold;
+
+}
