@@ -6,6 +6,7 @@ $email = $_POST['email'];
 $sql = "insert into alunos (nome,email) values ('$nome','$email')";
 if (mysqli_query($conn, $sql))
 {
+    header('Location:lista.php');
     echo "<h1>Aluno Cadastrado com sucesso!</h1>";
     echo "<a href='index.html'>Voltar</a>";
 }
