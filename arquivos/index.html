@@ -9,6 +9,7 @@
 <dody>
     <div class="container">
     <h1>Novo aluno</h1>
+    <h2>res<h2>
     <form action="salvar.php" method="post">
         <label for="">Nome:</label>
         <input type="text" name="nome" id="nome" required placeholder="Digite o Nome">
@@ -17,7 +18,28 @@
         <div>
         <button type="submit">Cadastrar Aluno</button>
         <link rel="stylesheet" href="index.css" >
+        <div>
+            <label for="">Nota1</albel>
+            <input type="number" name="nota_1" id="nota_1">
+            <label for="">Nota2</albel>
+            <input type="number" name="nota_2" id="nota_2">
+            <label for="">Nota3</albel>
+            <input type="number" name="nota_3" id="nota_3">
+             <input style="width: auto;" type="button" value="Calcular" onclick="calcular()">
+        </div>
+        <div input="resultado_media">
+            <script>
+               function calcular() {
+        let nota1 = parseFloat(document.getElementById('nota_1').value);
+        let nota2 = parseFloat(document.getElementById('nota_2').value);
+        let nota3 = parseFloat(document.getElementById("nota_3").value);
+        let resultado_media = document.getElementById("resultado_media");
+
+        let resultado = (nota1 + nota2 + nota3)/3;
+        resultado_media.innerHTML = (resultado).toFixed(1);
+    }
+            </script>
         </form> 
     </div>
-</dody>
+</body>
 </html>

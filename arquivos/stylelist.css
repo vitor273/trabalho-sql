@@ -1,7 +1,7 @@
 body
 {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-background-color: rgb(255, 0, 0);
+background-color: rgb(0, 0, 0);
 justify-content: center;
 padding-top: 50px;    
 display: flex;
@@ -36,7 +36,7 @@ input
 button
 {
     width: 100%;
-    background-color: rgb(241, 1, 1);
+    background-color: rgb(0, 0, 0);
     color: aliceblue;
     border: none;
     padding: 12px;
@@ -45,7 +45,7 @@ button
     font-size: 16px;
     transition: 0.3s;
 }
-button:houver{
+button:hover{
     background-color: aliceblue;
 }
 table{
@@ -54,14 +54,14 @@ table{
     margin-top: 20px;
 }
 .th, td{
-    border-bottom: 1px solid rgb(231, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
     padding: 12px;
     text-align: center;
 }
 
 th{
-    background-color: white;
-    color: rgb(255, 0, 0); 
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 
@@ -69,13 +69,13 @@ th{
 display: inline-block;
 margin-top: 20px;
 text-decoration: none;
-color:rgb(255, 0, 0);
+color:rgb(0, 0, 0);
 font-weight: bold;
 
 .btn-excluir
 {
-background-color: brown;
-color:rgb(231, 60, 60);
+background-color: rgb(0, 0, 0);
+color:rgb(0, 0, 0);
 padding: 5px 10px;
 text-decoration: none;
 border-radius: 4px;
@@ -83,12 +83,12 @@ font-size: 14px;
 }
 .btn-excluir:hover
 {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
 .btn-editar
 {
-background-color: brown;
-color:rgb(231, 60, 60);
+background-color: rgb(0, 0, 0);
+color:rgb(0, 0, 0);
 padding: 5px 10px;
 text-decoration: none;
 border-radius: 4px;
