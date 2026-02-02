@@ -1,0 +1,75 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2
+{
+    margin: 10px;
+    text-align: center;
+    color:rgb(12, 12, 12);
+}
+
+h1
+{
+    
+    margin: 50px auto;
+    text-align: center;
+    color:rgb(241, 241, 241);
+}
+.formulario
+{
+    height: auto;
+    margin: 200px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+.container
+{
+    width: 400px ;
+    height: auto;
+    margin: 200px auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+label
+{
+    margin-left: 435px;
+}
+
+button
+{
+    width: 100%;
+    background-color: rgb(184, 21, 21);
+    color: #ccc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px;
+
+}
+
+input
+{
+    width:100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: rgb(3, 5, 5);
+    color: rgb(255, 255, 255);
+    transition: color .5;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(172, 162, 162);
+    transition: color .5;
+}
